@@ -1,2 +1,3 @@
-# coursera-devops-ibm
+# coursera-ibm-certificates
+
 Epic repository. Welcome
