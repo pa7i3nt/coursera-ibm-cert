@@ -1,0 +1,12 @@
+URL of github repo of your solution code.
+https://github.com/pa7i3nt/IBM-Cloud-App-Development-Capstone/tree/master/functions
+---------
+URL of the GET dealership endpoint /api/dealership.
+https://us-south.functions.appdomain.cloud/api/v1/web/9549f3f5-89c5-463e-a52e-ede4653f48aa/dealership-package/get-dealership
+---------
+URL of the GET reviews endpoint api/review.
+https://us-south.functions.appdomain.cloud/api/v1/web/9549f3f5-89c5-463e-a52e-ede4653f48aa/dealership-package/get-review
+---------
+URL of the POST endpoint /api/review.
+https://us-south.functions.appdomain.cloud/api/v1/web/9549f3f5-89c5-463e-a52e-ede4653f48aa/dealership-package/post-review
+---------
