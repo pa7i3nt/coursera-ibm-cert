@@ -1,5 +1,5 @@
 #!/bin/bash
 for file in $(find . -iname *.pdf); do
-	echo "${file}"
+	ocrmypdf "${file}" "${file%.*}_ocr.pdf"
 done;
 
