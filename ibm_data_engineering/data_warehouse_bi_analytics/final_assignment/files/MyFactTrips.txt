@@ -1,0 +1,6 @@
+MyFactTrips
+- trip_id
+- date_id
+- waste_type_id
+- zone_id
+- waste_collected
