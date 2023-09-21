@@ -1,9 +1,8 @@
 #!/bin/sh
 
 ## Write your code here to load the data from sales_data table in Mysql server to a sales.csv.
-mysql -u root -pNzI4NS1naWFuZ2Zu -e "select * from sales.sales_data;" | tr '\t' ',' > sales.csv
 ## Select the data which is not more than 4 hours old from the current time.
-mysql -u root -pNzI4NS1naWFuZ2Zu -e "select * from sales.sales_data where timestamp >= DATE_SUB(NOW(), INTERVAL 4 HOUR);"
+mysql -u root -pNzI4NS1naWFuZ2Zu -e "select * from sales.sales_data where timestamp >= DATE_SUB(NOW(), INTERVAL 4 HOUR);" | tr '\t' ',' > sales.csv
 
  export PGPASSWORD=Mjk3ODEtZ2lhbmdm;
 
