@@ -12,7 +12,7 @@ echo 'Done.'
 
 echo 'Ocr-ing...'
 
-for file in $(find . -iname *.pdf); do
+for file in $(find . -name "*.pdf"); do
 	ocrmypdf "${file}" "${file%.*}_ocr.pdf"
 done;
 
