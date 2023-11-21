@@ -1,0 +1,25 @@
+This architecture uses the following AWS services:
+
+- AWS Kinesis Firehose: A fully managed service for delivering real-time streaming data to Amazon S3.
+
+- AWS Glue: A fully managed service for crawling and cataloging data sources. It also provides a workflow engine for transforming and loading data into Amazon S3.
+
+- Amazon S3: A scalable, object-based storage service for storing data of any size and type.
+
+- Amazon EMR: A managed Hadoop, Spark, and Hive service that makes it easy to run big data analytics in the cloud.
+
+- Amazon Redshift: A fast, scalable, and cost-effective data warehouse for analytical workloads.
+
+- Amazon QuickSight: A fully managed cloud-based BI service that makes it easy to create and share insights from business data.
+
+---
+
+This architecture meets the following requirements:
+
+- Ingest data from three locations: The architecture uses AWS Kinesis Firehose to ingest data from IoT sensors, AWS Glue to ingest data from the database and third-party data providers, and Amazon S3 to store all ingested data.
+
+- Clean and transform data: The architecture uses Amazon EMR to clean and transform data before it is loaded into Amazon Redshift.
+
+- Use Apache Hadoop-based software: The architecture uses Amazon EMR, which is a managed Hadoop, Spark, and Hive service.
+
+- Create dashboards: The architecture uses Amazon QuickSight to create dashboards that show visual representations of the insights derived from the data.
